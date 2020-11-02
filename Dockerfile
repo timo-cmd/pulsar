@@ -1,1 +1,1 @@
-
+RUN make all
