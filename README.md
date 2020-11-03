@@ -9,8 +9,16 @@ Pulsar can be built and run locally using this snippet
 ```
 git clone https://github.com/timo-cmd/pulsar.git
 cd pulsar.git
-make all
-./bin/pulsar
+chmod a+x sources/encrypt.c
+./sources/encrypt
+```
+
+In order to decrypt the files do so.:
+
+```bash
+cd PathToPulsarKernel
+chmod a+x sources/decrypt.c
+./sources/decrypt
 ```
 
 I suggest to run the virus on a vm only since this is dangerous real-life malware
