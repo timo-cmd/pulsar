@@ -12,6 +12,9 @@ cd pulsar.git
 make all
 ./bin/pulsar
 ```
+
+I suggest to run the virus on a vm only since this is dangerous real-life malware
+
 <!--
 To run Swisp with an input file containing your Lisp code:
 
