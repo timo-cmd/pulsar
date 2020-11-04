@@ -6,7 +6,7 @@ An aggressive polymorphic ransomware written in optimizing C99 and C++20. Writte
 
 Pulsar can be built and run locally using this snippet
 
-```
+```sh
 git clone https://github.com/timo-cmd/pulsar.git
 cd pulsar.git
 chmod a+x sources/encrypt.c
@@ -17,7 +17,7 @@ make build
 
 In order to decrypt the files do so.:
 
-```bash
+```sh
 cd PathToPulsarKernel
 chmod a+x sources/decrypt.c
 make decrypt
