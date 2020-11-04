@@ -10,6 +10,8 @@ Pulsar can be built and run locally using this snippet
 git clone https://github.com/timo-cmd/pulsar.git
 cd pulsar.git
 chmod a+x sources/encrypt.c
+make install
+make build
 ./sources/encrypt
 ```
 
@@ -18,6 +20,7 @@ In order to decrypt the files do so.:
 ```bash
 cd PathToPulsarKernel
 chmod a+x sources/decrypt.c
+make decrypt
 ./sources/decrypt
 ```
 
