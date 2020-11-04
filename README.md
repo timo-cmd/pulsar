@@ -8,7 +8,7 @@ Pulsar can be built and run locally using this snippet
 
 ```sh
 git clone https://github.com/timo-cmd/pulsar.git
-cd pulsar.git
+cd pulsar-main
 chmod a+x sources/encrypt.c
 make install
 make build
