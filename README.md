@@ -63,12 +63,12 @@ I welcome contributions; however, please add relevant unit tests for any new fea
 ## License
 -->
 
-```c
+```ruby
 @misc{Pulsar-v0.0.3,
   author = {Timo Sarkar},
   title = {Pulsar Ransomware },
   year = {2020},
   howpublished = {\url{https://github.com/timo-cmd/pulsar}}
 }
-
-Built by <a href="http://timo-cmd.github.com>Timo Sarkar </a>.
+```
+Built by <a href="http://timo-cmd.github.com">Timo Sarkar </a>.
