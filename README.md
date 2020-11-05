@@ -7,61 +7,32 @@ An aggressive polymorphic ransomware written in optimizing Golang. Written for r
 Pulsar can be built and run locally using this snippet
 
 ```sh
-git clone https://github.com/timo-cmd/pulsar.git
+# clone this repo branch
 cd pulsar-main
-chmod a+x sources/encrypt.c
-make install
-make build
-./sources/encrypt
+cd test
+setup.cmd
+```
+
+Lets encrypt some test files:
+
+```sh
+keygen.cmd # generates the public and the private key
+crack.cmd
 ```
 
 In order to decrypt the files do so.:
 
 ```sh
-cd PathToPulsarKernel
-chmod a+x sources/decrypt.c
-make decrypt
-./sources/decrypt
+decrypt.cmd
 ```
 
 I suggest to run the virus on a vm only since this is dangerous real-life malware
-
-<!--
-To run Swisp with an input file containing your Lisp code:
-
-```
-.build/debug/Swisp -i filename
-```
-
-To run Swisp in interactive REPL mode:
-
-```
-.build/debug/Swisp
-```
-
-Example of REPL in action:
-
-```
-Swisp> (define r 10)
-Swisp> (* pi (* r r))
-314.159265358979
-Swisp> (if (> (* 11 11) 120) (* 7 6) oops)
-42
-Swisp> 
-```
-
-To run the tests:
-
-```
-swift test
-```
 
 ## Contributions
 
 I welcome contributions; however, please add relevant unit tests for any new features or procedures.
 
 ## License
--->
 
 ```ruby
 @misc{Pulsar-v0.0.3,
