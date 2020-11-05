@@ -1,0 +1,1 @@
+pulsar.exe -opt decrypt -area ./area -keypath private.key

@@ -1,0 +1,22 @@
+Usage Pulsar
+`kind`: str
+	Select one of the values: encrypt | decrypt | keygen.
+
+`keypath`: str
+	Path of private or public key.
+
+`area`: str
+	Directory path to infect.
+
+`message`: str (default "hello")
+	Messages to be written to the infected file. 
+
+`tails`: ...
+	List of extensions to be infected
+	
+
+Encrypt Example: pulsar.exe -kind encrypt -area ./area -keypath public.key .jpg .txt .mp3
+                                     |             |                |
+                                   option        folder         pathToKey 
+                                   
+Decrypt Example: pulsar.exe -kind decrypt -area ./area -keypath private.key
