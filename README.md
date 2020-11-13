@@ -71,4 +71,4 @@ I welcome contributions; however, please add relevant unit tests for any new fea
   howpublished = {\url{https://github.com/timo-cmd/pulsar}}
 }
 ```
-Built by <a href="http://timo-cmd.github.com">Timo Sarkar </a>.-->
+Built by <a href="http://timo-cmd.github.com">Timo Sarkar </a>.
